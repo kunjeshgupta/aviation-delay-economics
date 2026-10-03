@@ -107,10 +107,3 @@ projects/aviation-delay-economics/
 ```
 
 ---
-
-## 5. Resume Bullet Points (Tailored for Product / Strategy Analytics)
-
-* **Aviation Revenue Management & Flight Delay Optimization Pipeline** *(Python, SQL, SQLite, Pandas, Seaborn)*
-  * Architected an econometric decision engine analyzing 336k+ BTS flight records across NYC hubs (EWR, JFK, LGA) to model the "Hold vs. Pushback" trade-off between passenger connection protection and cascading network block costs.
-  * Formulated an aircraft turnaround cascade model across sequential tail-number rotations; uncovered that point-to-point carriers (Southwest) face a 69.6% delay propagation probability compared to 58.8% for legacy hub-and-spoke carriers (Delta), amplifying downstream leg delays to 35 minutes.
-  * Derived an optimal dispatch decision matrix with FAA block-hour cost functions ($85/min) and passenger re-accommodation values ($350/pax), establishing an 8-passenger break-even rule for 15-minute gate holds.
